@@ -40,7 +40,7 @@ void VirtualM::RUN()
         }
         else 
         {
-            cerr << "Unknown operator at pos : " << pos << endl;
+            cerr << "Unknown operator in " << pos << "position!" << endl;
             exit(EXIT_FAILURE);
         }
     }
